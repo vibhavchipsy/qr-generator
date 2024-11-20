@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const tempDiv = document.createElement("div");
         const tempQR = new QRCode(tempDiv, {
             text: url,
-            width: 4000, // 4K resolution
-            height: 4000,
+            width: 1920, // 4K resolution
+            height: 1080,
             colorDark: "#000000",
             colorLight: "#ffffff",
             correctLevel: QRCode.CorrectLevel.H
